@@ -3,7 +3,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: aquamarine;
-
+  overflow: hidden;
 }
 
 .main{
@@ -14,7 +14,7 @@ body{
 .search{
   height: 20vh;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 50px;
 
 }
 
@@ -76,11 +76,11 @@ body{
 .daysweather{
   position: relative;
   text-align: center;
-  width: 120px;
+  width: 100px;
   margin-left: 20px;
   background-color: rgb(128, 58, 58);
-  left: 450px;
-  top: -50px;
+  left: 350px;
+  top: -100px;
   border-radius: 10px;
 }
 
