@@ -13,6 +13,9 @@ function App() {
       const jsonData = response.json()
       setCity(jsonData)
       console.log(jsonData);
+
+      // -----------not find name----------------
+      console.log(jsonData.name)
     }
     fetchApi()
   }, [])
