@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+
+}
+
+.main{
+    align-items: center;
+      justify-content: space-between;
+}
+
+.search{
+  height: 20vh;
+  text-align: center;
+  margin-top: 75px;
+
+}
+
+.search > input{
+  width: 40%;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.card{
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  background-color: azure;
+  display: flex;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+.img{
+  /* width: 200px; */
+}
+
+.img > img{
+  width: 300px;
+}
+
+.text{
+  margin-left: 30px;  
+}
+
+.textFirst{
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.text h1{
+  font-size: 40px;
+}
+
+.text > P{
+  font-size: 20px;
+}
+
+.cardSmall{
+  position: absolute;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.daysweather{
+  position: relative;
+  text-align: center;
+  width: 120px;
+  margin-left: 20px;
+  background-color: rgb(128, 58, 58);
+  left: 450px;
+  top: -50px;
+  border-radius: 10px;
+}
+
+.daysweather > img{
+  width: 40px;
+}
